@@ -1,10 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;800;900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
 *{
   box-sizing: border-box;
   margin: 0;
+  
+}
+body{
+  font-family:"PT Sans Narrow";
+  font-weight: 400;
 }
 .flex{
 display: flex;
 }
+body {
+  font-family: "PT Sans Narrow";
+}
 .flex-column {
   flex-direction: column;
+}
+ul {
+  list-style-image: url(list-circle.svg);
+}
+/* ul[title]::before {
+  content:"Ребрендинг";
+  display: block;
+  font-weight: bold;
+  padding: 4px;
+} */
+.rebrand {
+font-size: 42px;
+line-height: 54px;
+color: #398495;
+text-align: left;
+
+}
+.text-left{
+  align-items: flex-start;
+
+}
+ul {
+  padding: 0;
+  margin: 20px;
+  /* kak eto srabotal? */
+
+}
+.block1 {
+  max-height: 505px;
+  padding-top: 23px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.podblock1-1{
+ 
+}
+.pizdyuk{
+  height: 100%;
+}
+.just-between{
+  justify-content:space-between;
+}
+.width100{
+  width: 100%;
+}
+ul{
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #393939;
+
+}
+.flex-row{
+  flex-direction: row;
+}
+.zakaz {
+  background: #398495;
+border-radius: 5px;
+height:41px;
+width: 186px;
+border: 0;
+clip-path: polygon(0 0, 82% 0, 96% 100%, 0% 100% );
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.Plus400{
+  color: white;
+  /* font-family: "Mplus 1p"; */
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.portfolio {
+  height: 41px;
+width: 186px;
+border: 2px solid #3BB372;
+border-radius: 5px;
+clip-path: polygon(4% 0, 100% 0, 100% 100%, 18% 100%);
+margin-left:-30px
+}
+/* .portfolio::after{
+  border-style: solid;
+border-width: 0 0 42px 16px;
+border-color: #3BB372;
+} */
+.plusNeplus{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
 }
